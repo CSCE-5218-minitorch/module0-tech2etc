@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Task 0.1",
+      "setup": "sudo -H pip3 install --force-reinstall -qr requirements.txt; sudo -H pip3 install --ignore-installed pyyaml",
+      "run": "pytest -m task0_1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "Task 0.2",
+      "setup": "sudo -H pip3 install --force-reinstall -qr requirements.txt; sudo -H pip3 install --ignore-installed pyyaml",
+      "run": "pytest -m task0_2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Task 0.3",
+      "setup": "sudo -H pip3 install --force-reinstall -qr requirements.txt; sudo -H pip3 install --ignore-installed pyyaml",
+      "run": "pytest -m task0_3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Task 0.4",
+      "setup": "sudo -H pip3 install --force-reinstall -qr requirements.txt; sudo -H pip3 install --ignore-installed pyyaml",
+      "run": "pytest -m task0_4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    }
+  ]
+}
